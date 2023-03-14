@@ -3,6 +3,8 @@ body {
   min-height: 100vh;
   margin: 0;
   background: url(images/BG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 H1 {
   text-align: center;
