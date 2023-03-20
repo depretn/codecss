@@ -27,3 +27,24 @@ a {
 em {
   color: #168314d6;
 }
+.lien_cours{border:solid 5px  green;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.lien_cours ol{padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.lien_cours li{
+  list-style: none;
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  border: solid 2px green ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
