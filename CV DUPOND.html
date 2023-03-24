@@ -1,0 +1,248 @@
+<!--_____________________________________________________ MISE EN MARCHE_________________________________________-->
+<!DOCTYPE html>
+<!-- HTML5 pour le parametrage de debut -->
+<html lang="fr">
+  <!--langue francais -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV DUPOND</title>
+    <!-- nom dans l'onglet -->
+    <link rel="shortcut icon" href="cv.png" />
+    <!-- icone dans onglet -->
+  </head>
+  <body>
+<!--_____________________________________________________ TITRE_________________________________________-->
+    <!--cors de ma page   -->
+    <h1>&#10002; CV DUPONDT &#10002;</h1><!-- titre de niveau 1 (il ne doit y en avoir que un)  -->
+    <!--titre de ma page  encadré par des simbole pris sur https://www.toptal.com/designers/htmlarrows/symbols/-->
+    <section>
+    <!-- mon body est séparer en sections -->
+      <h2 id="TOTO">H2 TOTO</h2><!-- titre de niveau 2  -->
+      <!-- titre de valeur inferieur à H1 avec attribut id=(identifiant)ancre -->
+      <h3>H3</h3>
+      <h4>H4</h4>
+      <h5>H5</h5>
+      <h6>H6</h6>
+      <h7>H7 </h7>
+<!--_____________________________________________________ ORGANISATION_________________________________________-->
+      <div>
+        <!-- mes sections sont séparer en divisions -->
+     
+        <br />
+        <br />
+        <!--retour à la ligne    -->
+      
+        <p>paragraphe en P</p>
+        <!-- balise pour créer un paragraphe. -->
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+          doloribus repellendus temporibus nihil excepturi harum facilis nisi!
+          Quibusdam molestiae voluptate dolore nam cupiditate blanditiis labore,
+          cum est atque tenetur aspernatur mollitia rem dolores quidem, quas
+          nihil. Dolorem saepe non id aspernatur repellendus, dignissimos minus
+          ad sed totam exercitationem. Quibusdam, saepe.
+        </p>
+      <!-- la balise lorem + un nombre (n) permet de rentrer n mots aléatoire  -->
+        <span>paragraphe en span </span>
+        <!-- le span permet de ne pas revenir à la ligne et ecrire mon texte à la suite de ce qui était avant -->
+        <span
+          >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
+          laudantium, quae vero mollitia, libero ipsam molestias exercitationem
+          alias sequi in ex corporis odio, dolorem modi neque facere. Nostrum,
+          odit cum.</span
+        >
+        <br />
+<!--_____________________________________________________ MISE EN VALEUR_________________________________________-->
+
+        <em>italique</em>
+        <!-- balise pour écrir en italique  -->
+
+        <strong>gras</strong>
+        <!-- balise pour écrire en gras -->
+
+        <mark> Surligner le texte.</mark>
+         <!-- balise pour Surligner le texte. -->
+         
+<!--_____________________________________________________ IMAGE_________________________________________-->
+        <img
+      
+          src="photo dupondt .png"
+          height="100"
+          alt="dupont T et D 2 policier en noir avec un chapeau melon la seul difference entre eux est leurs moustaches "
+        />
+        <!-- img balise pour ajouter une image 
+          src attribut du chemin de mon image 
+          height attribut pour la taille de mon image en pixel
+          alt description de mon image qui sert pour le référencement  -->
+      </div>
+      <!-- fin de ma divisions -->
+      <h3>lycée</h3>
+<!--_____________________________________________________ LISTE_________________________________________-->
+      <ul>
+        <!-- liste désordonner -->
+        <li>second </li>
+        <!-- première ligne de ma liste -->
+        <li>première</li>
+         <!-- deusième ligne de ma liste -->
+        <li>terminal</li>
+      </ul> <!-- fin de ma listedésordonner -->
+      <ol>
+        <!-- liste ordoner  -->
+        <li>second</li>
+         <!-- première ligne de ma liste -->
+        <li>première</li>
+         <!-- deusième ligne de ma liste -->
+        <li>terminal</li>
+      </ol><!-- fin de ma liste ordoner  -->
+      <h3>post bac</h3>
+    </section>
+    <!-- fin de section  -->
+    <section>
+
+      <h2>experience professionel</h2>
+<!--_____________________________________________________ TABLEAU_________________________________________-->
+      <table border="1" width="80%">
+       <!-- balise tableau avec les attributs
+      border pour l'épéseur de la bordure
+      width pour la taille de l'affichage en pixel ou en en % de l'écran
+     -->
+        <caption>
+          <!-- titre ou légende du tableau -->
+          experience en stage
+        </caption>
+       
+        <thead>
+          <!-- en-tête tableau (premières lignes)  -->
+          <tr><!-- première ligne (posibiliter de mettre plusieur ligne en en-tete)  -->
+            <th>année</th><!-- en tête tableau (première colonne)  -->
+            <th>entreprise</th><!-- en tête tableau (deusième colonne)  -->
+            <th>durée</th>
+            <th>rapport de stage</th>
+          </tr>
+        </thead><!--fin de l'en-tête tableau  -->
+        <tbody>
+          <!-- corps du tableau   -->
+          <tr><!--  première ligne après en-tete  -->
+            <td>2000 année de 3ème</td><!-- première colonne de la première ligne   -->
+            <td>L'armée de l'air</td><!-- deusième colonne de la première ligne   -->
+            <td>1 semaine</td>
+            <td>
+              <a href="https://www.google.com/" target="_blank">lien vers mon raport </a>
+            </td>
+          </tr><!-- fin  première ligne après en-tete  -->
+          <tr><!--  deusième ligne après en-tete  -->
+            <td>2001 année de seconde</td>
+            <td>photographe indépendant</td>
+            <td>2 semaines</td>
+            <td>lien vers mon rapport</td>
+          </tr><!-- fin deusième ligne après en-tete  -->
+          <tr>
+            <td>2002 année de seconde</td>
+            <td>entreprise d'imprimerie</td>
+            <td>4 semaines</td>
+            <td>
+              <a  href="#ancre">lien vers mon raport </a>
+            </td>
+          </tr>
+        </tbody> <!-- fin corps du tableau   -->
+      </table> <!-- fin tableau   -->
+    </section> 
+<!--_____________________________________________________ LIENS_________________________________________-->    
+<br>
+<a href="https://www.google.com/" target="_blank">lien vers mon raport </a>
+<!-- lien vers une page internet avec attribut
+ target ="_blank" pour l'ouvrir sur une page vièrege et ne pas fermer la page en cours d'utilisation -->
+<br>
+<a href="/autre_page/page2.html" target="_blank">lien vers mon raport </a>
+<!-- lien vers une autre page du site (page enregistrer dans mon dossier) -->
+<br>
+<a  href="#TOTO">lien vers mon raport </a>
+<!-- lien vers un repère dans la page ici le titreH2 TOTO-->
+<!--__________________________________________________________VIDEO________________________________________-->    
+
+
+    <section>
+     
+      <video src="video dupondt.mp4" autoplay loop muted height="200"></video>
+      <!-- balise video avec les atribut 
+        src nom ou chemin vers la vidéo 
+        autoplay mise en route automatique
+        loop relance automatique
+        muted coupe le son
+      height regle la taille de la video-->
+    </section>
+    <section>
+      <!--__________________________________________________________FORMULAIRE________________________________________-->    
+
+     <h2>formulaire</h2>
+
+      <form action="/action.php" method="post">
+        <!-- création d'un formulaire -->
+
+        <label for="name">Nom : </label><!-- écrire (Nom: ) quand on appelle "name" -->
+        <input id="name" type="text" placeholder="entrer votre nom " />
+        <!-- balise d'entrer avec comme attribut 
+                id pour l'identifiant 
+                type  avec la valeur texe donc on rentrera du texte
+                placeholder "titi" pour ecrire titi en attendant que l'on rentre du texte -->
+
+
+        <input type="number" min="0" max="99" step="5" value="10" />
+        <!-- balise d'entrer avec comme attribut 
+                id pour l'identifiant 
+                type  avec la valeur nomber donc on rentrera un nombre
+                mini avec pour valeur minimum (ici 0)
+                max avec pour valeur maximum (ici 99)
+                step  l'augmentation ou la diminution ce fera par ecart (ici de 5 )soit 5 10 15 20...
+                value attribut la valeur par défaut -->
+                
+        <label for="taille">taille</label>
+        <select id="taille">
+          <option value="TPE">TPE</option>
+          <option selected value="PME">PME</option>
+          <option value="grande entreprise">grande entreprise</option>
+          <option value="multinational">multinational</option>
+        </select>
+          <!--  liste déroulante avec ces options
+          selected value indique la valeur par défaut -->
+
+        <br />
+
+        <input type="radio" name="taille" id="TPE" />
+        <label for="TPE">TPE</label>
+        <input type="radio" name="taille" id="PME" checked />
+        <label for="PME">PME</label>
+        <input type="radio" name="taille" id="grande entreprise" />
+        <label for="grande entreprise">grande entreprise</label>
+        <input type="radio" name="taille" id="multinational" />
+        <label for="multinational">multinational</label>
+        <!-- entrer de type radio petites pucse à valider  -->
+        <br />
+        <textarea
+          name="zone de texte"
+          id="zt"
+          cols="30"
+          rows="10"
+          placeholder="entrer votre demande "
+        ></textarea>
+        <!--créer un zone de texte -->
+        <br />
+
+        <label> <input type="checkbox" /> ok pour entretien </label>
+        <!-- créer une case à valider -->
+        <br />
+        <input type="submit" value="Valider" />
+        <!-- permet d'enregistrer toute les valeurs qui on été saisi -->
+      </form>
+    </section>
+    <footer>
+      <a href="mailto:dupondt@gmail.com">mon mail</a>
+      <!-- lien clicable pour envoyer un mail -->
+      <br />
+      <a href="cv.png" download="curiculum">Télecharger mon CV au format PDF</a>
+       <!-- lien clicable pour télécharger un document -->
+    </footer>
+  </body>
+</html>
